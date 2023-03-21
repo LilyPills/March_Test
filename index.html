@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!doctype html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>China Eletronicos</title>
+    <!-- <link rel="shortcut icon" href="/img/favicon/favicon.ico"> -->
+    <link rel="stylesheet" href="style.css">
+    <link href="/img/favicon/favicon-32x32.png" rel="shortcut icon" type="image/x-icon" />
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<div>
+    <body>
+    <header>
+        <div class="container">
+            <h1 class="titulo">China Eletronicos</h1>
+        </div>
+    </header>
+
+    <div>
+        <br><h6>Equipamentos Eletrônicos de Ótima Qualidade!</h6>
+    </div>
+
+        <img src="img/banner.jpg" width="100%" height="700px">
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+   
+
+            <!-- -----------------Tabela (não se perca)------------------- -->
+
+            <hr>
+    <main>
+        <section class="container">
+            <h3>Sistema de gerenciamento de vendas</h3>
+            <table class="table">
+                <thead>
+                    <th>Nome do cliente</th>
+                    <th>Produto vendido</th>
+                    <th>Quantidade</th>
+                    <th>Valor total</th>
+    
+                </thead>
+                <tbody id="tabVendas">
+                    <tr class="notas">
+                        <td class="nomeclie">Yunjin</td>
+                        <td class="proVen">Fone Bluetooth Earbuds TWS</td>
+                        <td class="quant">02</td>
+                        <td class="valTot">R$ 179,80</td>
+                    </tr>
+                    <tr class="notas">
+                        <td class="nomeclie">Zhongli</td>
+                        <td class="proVen">Massageador Ortopédico Portátil</td>
+                        <td class="quant">01</td>
+                        <td class="valTot">R$ 87,90</td>
+                    </tr>
+
+
+                    <tr class="notas">
+                        <td class="nomeclie">Ganyu</td>
+                        <td class="proVen">Cafeteira Espresso Oster, PrimaLatte II, Vermelho, 220V</td>
+                        <td class="quant">01</td>
+                        <td class="valTot">R$ 1.099,00</td>
+                    </tr>
+
+
+                    <tr class="notas">
+                        <td class="nomeclie">Childe</td>
+                        <td class="proVen">Console Nintendo Switch - Azul Neon e Vermelho Neon (Nacional)</td>
+                        <td class="quant">04</td>
+                        <td class="valTot">R$ 8.796,00</td>
+                    </tr>
+
+                    <tr class="notas">
+                        <td class="nomeclie">Xingqiu</td>
+                        <td class="proVen">Kindle Paperwhite Signature Edition 32 GB: tela de 6,8", carregamento sem fio e luz frontal adaptável</td>
+                        <td class="quant">02</td>
+                        <td class="valTot">R$ 1.708,10</td>
+                    </tr>
+
+                    <tr class="notas">
+                        <td class="nomeclie">Xiagnling</td>
+                        <td class="proVen">Fritadeira Airfryer Essential XL Conectada Philips Walita com conectividade Alexa, Preta 2000W, 127V - RI9280/90</td>
+                        <td class="quant">01</td>
+                        <td class="valTot">R$ 1.619,88</td>
+                    </tr>
+
+                    <tr class="notas">
+                        <td class="nomeclie">Xinyan</td>
+                        <td class="proVen">Echo (4ª Geração): Com som premium, hub de casa inteligente e Alexa - Cor Preta</td>
+                        <td class="quant">01</td>
+                        <td class="valTot">	R$ 711,55</td>
+                    </tr>
+
+                </tbody>
+            </table>
+            </section>
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <hr>
+                    <!-- -----------------Formulário (não se perca)------------------- -->
+
+            <section class="container">
+                <h2 id="titulo-form">Adicionar novas vendas:</h2>
+                <ul id="mensagensError"></ul>
+                <form id="addForm">
+                    <div class="row mb-3">
+                        <label for="colFormLabel" class="col-sm-2 col-form-label">Nome do cliente</label>
+                        <div class="col-sm-10">
+                          <input type="text" class="form-control" name="nomeClie" id="nomeClie" placeholder="Digite o nome do cliente..." >
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="colFormLabel" class="col-sm-2 col-form-label">Produto vendido:</label>
+                        <div class="col-sm-10">
+                          <input type="text" class="form-control" name="proVen" id="proVen" placeholder="Digite o produto vendido...">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="colFormLabel" class="col-sm-2 col-form-label">Quantidade:</label>
+                        <div class="col-sm-10">
+                          <input type="number" class="form-control" name="quant" id="quant" placeholder="Digite a quantidade comprada...">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="colFormLabel" class="col-sm-2 col-form-label">Valor total:</label>
+                        <div class="col-sm-10">
+                          <input type="text" class="form-control" name="valTot" id="valTot" placeholder="Digite o valor total...">
+                        </div>
+                    </div>
+        
+        <!-- -----------------Botão (não se perca)------------------- -->
+                    <button id="addVenda" class="main button">Adicionar</button>
+                </form>
+            </section>
+        </form>
+        
+        
+        
+            <!-- <script src="js/calculaVendas.js"></script> -->
+            <script src="js/form.js"></script>
+            <script src="js/remoVendas.js"></script>
+        
+        </div>
+<h2><a href="#" class="link-secondary">^</a></h2>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+                <footer>
+                    Criado por Letícia Santiago<article>
+                        
+                </footer>
+        
+        </body>
+
