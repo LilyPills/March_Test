@@ -1,0 +1,3 @@
+Você conseguiu fazer todos os processos de HTML/CSS solicitados, conseguiu também linkar corretamente o javaScript
+criou a função de apagar registro e por conta de um pequeno erro de sintaxe seu inserir na tabala não funcionou.
+Sendo assim você atingiu o nivel - 04 da avaliação e sua nota é 4,5
